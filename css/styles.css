@@ -1,0 +1,323 @@
+body {
+    background-color: #27296d;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.skills {
+    padding-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Sacramento", cursive;
+    font-size: 8.625rem;
+    color: #71c9ce;
+    padding-top: 150px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    color: #71c9ce;
+    padding-top: 10px;
+}
+
+.projectH2 {
+    margin: 0;
+    color: #71c9ce;
+}
+
+h3 {
+    font-family: "Montserrat";
+    color: #71c9ce;
+}
+
+h5 {
+    font-family: "Open Sans Condensed";
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #71c9ce;
+}
+
+p {
+    font-family: "Open Sans Condensed";
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #71c9ce;
+}
+
+span {
+    text-decoration: underline;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    margin: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #71c9ce;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.contact-me {
+    padding-bottom: 100px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #27296d;
+}
+
+.contact-me>h2 {
+    color: #71c9ce;
+}
+
+.contact-me>h3 {
+    color: #71c9ce;
+}
+
+.contact-me>p {
+    color: #71c9ce;
+}
+
+.contactmessage {
+    width: 40%;
+    margin: 40px auto 60px;
+    font-size: 1.5rem;
+}
+
+.profile {
+    text-align: center;
+    width: 15%;
+    padding-top: 100px;
+}
+
+.minibio {
+    font-size: 1.5rem;
+    width: 30%;
+    margin: auto;
+}
+
+.coding-image {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+    border-radius: 70%;
+}
+
+.ios {
+    float: right;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.project-skill-row {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.top-container {
+    background-color: #27296d;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mid-container {
+    background: #1c6ea4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    grid-gap: 20px;
+}
+
+.middle-container {
+    background: #1c6ea4;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background: #1c6ea4;
+    padding: 50px 0 20px;
+    padding-bottom: 50px;
+}
+
+.bottom-container>a {
+    color: white;
+}
+
+.bottom-container>p {
+    color: white;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.projectImg {
+    width: 100%;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #27296d 5%, #5e63b6 100%);
+    background-color: #27296d;
+    border-radius: 8px;
+    border: 1px solid #27296d;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #71c9ce;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #5e63b6 5%, #27296d 100%);
+    background-color: #5e63b6;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+table {
+    border-radius: 5px;
+    border: 2px solid #27296d;
+    font-family: "Merriweather", serif;
+}
+
+th {
+    border-radius: 5px;
+    font-family: "Merriweather", serif;
+}
+
+tr {
+    border-radius: 5px;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable {
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #27296d;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    opacity: .7;
+    color: white;
+    padding-top: 20px;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable td,
+table.blueTable th {
+    padding: 3px 2px;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable tbody td {
+    font-size: 13px;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable tr:nth-child(even) {
+    background: #1c6ea4;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable thead {
+    background: #1c6ea4;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable thead th:first-child {
+    border-left: none;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #d0e4f5;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable tfoot td {
+    font-size: 14px;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable tfoot .links {
+    text-align: right;
+    font-family: "Merriweather", serif;
+}
+
+table.blueTable tfoot .links a {
+    display: inline-block;
+    background: #1c6ea4;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-family: "Merriweather", serif;
+}
+
+
+/* animated slider */
+
+body {
+    margin: 0;
+}
+
+canvas {
+    background-image: radial-gradient(#1c6ea4, #d0e4f5);
+}
+
+#instructions {
+    color: #fff;
+    bottom: 0;
+    padding-bottom: 6px;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
