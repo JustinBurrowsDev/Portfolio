@@ -73,6 +73,7 @@ a:hover {
     font-size: 1.5rem;
     color: black;
     background-color: #27296d;
+    text-align: center;
 }
 
 .contact-me>h2 {
@@ -85,11 +86,13 @@ a:hover {
 
 .contact-me>p {
     color: #71c9ce;
+    text-align: center;
 }
 
 .contactmessage {
     width: 40%;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .profile {
@@ -201,6 +204,7 @@ a:hover {
     background: #1c6ea4;
     padding: 50px 0 20px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .bottom-container>a {
